@@ -6,11 +6,11 @@ using System.Web.Mvc;
 
 namespace MVCBookGallery.Controllers
 {
-    public class MVCBookGalleryController : Controller
+    public class HomeController : Controller
     {
-        public string Detail()
+        public string Index()
         {
-            return "Hello from book controller";
+            return "Welcome to the Homepage!";
         }
     }
 }
