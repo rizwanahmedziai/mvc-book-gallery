@@ -10,11 +10,7 @@ namespace MVCBookGallery.Controllers
     {
         public ActionResult Detail()
         {
-            if(DateTime.Today.DayOfWeek == DayOfWeek.Sunday)
-            {
-                return Redirect("/");
-            }
-            return Content("Hello from book controller");
+            return View();
             
         }
     }
