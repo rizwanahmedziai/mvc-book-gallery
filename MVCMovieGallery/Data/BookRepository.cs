@@ -61,6 +61,11 @@ namespace MVCMovieGallery.Data
 
 
         };
+
+        public Book[] GetBooks()
+        {
+            return _books;
+        }
         public Book GetBook(int id)
         {
             Book bookToReturn = null;
